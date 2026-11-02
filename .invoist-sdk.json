@@ -1,0 +1,18 @@
+{
+  "name": "OpenAPI",
+  "mirror": "invoisthq/invoist-openapi",
+  "registry": "GitHub",
+  "package": "invoisthq/invoist-openapi",
+  "tool": "npx",
+  "docker": "node:24",
+  "commands": {
+    "lint": "npx --yes @redocly/cli@2 lint openapi.yaml --skip-rule no-server-example.com",
+    "publish_dry_run": "",
+    "publish": ""
+  },
+  "spec": "openapi.yaml",
+  "generated": [],
+  "version_files": [],
+  "tag_prefix": "v",
+  "conformance": false
+}
